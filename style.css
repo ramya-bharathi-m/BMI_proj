@@ -13,6 +13,7 @@
     background-color: #474747;
 }
 
+
 header{
     color:#E8175D ;
     height: 10em;
@@ -69,7 +70,7 @@ input[type= number]:focus{
 
 
 button{
-    margin-top:100px;
+    margin-top:40px;
     margin-left: 550px;
     display: flex;
     justify-content: center;
@@ -88,7 +89,17 @@ button{
     overflow: hidden;
     cursor: pointer;
 }
-
 button:hover{
     color: #E8175D;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  
+    font-size: larger;
+    color: #fffcfd;
+    padding: 10px;
+    margin-top: 35px;
 }

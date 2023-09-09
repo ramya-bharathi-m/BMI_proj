@@ -9,16 +9,28 @@
 </head>
 <body>
     <header class="heading">
+    
         <span class="title-word title-word-1">BMI</span>
         <span class="title-word title-word-1">Calculator</span>
+     </header>
 
-    </header>
+  
+
     <div class="values">
-        <input type="number" class="left" placeholder="Enter Height in cms">
-        <input type="number" class="right" placeholder="Enter Weight in kgs">
+        <input type="number"  id="height" placeholder="Enter Height in cms">
+        <input type="number"  id="weight" placeholder="Enter Weight in kgs">
     </div>
+
+    <p id="result"></p>
+
     <div class="button">
-        <button type="submit">SUBMIT</button>
+        <button type="submit" onclick="checkbmi()">SUBMIT</button>
     </div>
+    
+    
+
+    <script src="app.js"></script>
+
+    
 </body>
 </html>
