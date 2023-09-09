@@ -26,14 +26,20 @@ header{
     font-weight: bolder;
     
 }
-
-.heading{
-    transition-property: all;
-    transition: color 1s, font-size 1s;
-    transition-duration: 0.5s;
-    transition-delay: 0s;
-    transition-timing-function: ease-in;
+.title-world{
+    animation: color-animation 4s linear infinite;
 }
+.title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
 
 .values{
     display: flex;
